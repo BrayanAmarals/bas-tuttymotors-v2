@@ -42,7 +42,7 @@ export default function Product({ params }) {
             </div>
             <div className="flex flex-row gap-3 items-center">
               <div className="w-2 h-2 rounded-full bg-slate-400"></div>
-              <p>Km's rodados: </p>
+              <p>Km rodados: </p>
               <p>{produto.km}</p>
             </div>
             <div className="flex flex-row gap-3 items-center">

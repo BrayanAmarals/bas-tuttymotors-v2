@@ -14,8 +14,8 @@ export default function Vender() {
           seu automóvel pode te trazer um excelente retorno financeiro, e nós da
           Tutty Motors podemos te ajudar nesse processo. Além de fazermos uma
           avaliação prévia do carro e fazermos uma proposta para comprar seu
-          veículo à vista, também fazemos a venda por “Consignação”. Mas afinal,
-          como isso funciona?
+          veículo à vista, também fazemos a venda por &apos;Consignação&apos;.
+          Mas afinal, como isso funciona?
           <br />
           <br />
         </p>
