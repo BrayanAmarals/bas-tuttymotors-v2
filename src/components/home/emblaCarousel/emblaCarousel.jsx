@@ -1,12 +1,12 @@
 "use client";
 
 import { React, useState, useEffect } from "react";
-import { DotButton, useDotButton } from "./emblaCarouselDotButton";
+import { DotButton, useDotButton } from "./emblaCarouselDotButton.jsx";
 import {
   PrevButton,
   NextButton,
   usePrevNextButtons,
-} from "./EmblaCarouselArrowButtons";
+} from "./emblaCarouselArrowButtons.jsx";
 import useEmblaCarousel from "embla-carousel-react";
 import Card from "./card";
 import getProducts from "@/api/products";
