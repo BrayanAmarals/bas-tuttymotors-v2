@@ -2,7 +2,7 @@
 
 import React, { useCallback, useEffect, useState } from "react";
 
-export const usePrevNextButtons = (emblaApi) => {
+export default function usePrevNextButtons(emblaApi) {
   const [prevBtnDisabled, setPrevBtnDisabled] = useState(true);
   const [nextBtnDisabled, setNextBtnDisabled] = useState(true);
 
@@ -34,7 +34,7 @@ export const usePrevNextButtons = (emblaApi) => {
     onPrevButtonClick,
     onNextButtonClick,
   };
-};
+}
 
 export const PrevButton = (props) => {
   const { children, ...restProps } = props;
